@@ -1,0 +1,6 @@
+ocmd=cd /usr/bin
+ocmd=java -version
+ocmd=mx what
+ocmd=mx null "proc='a1!oi!'" create=x count=1 now
+ocmd=mx /bases/mdlG4/m13.mdl/mdl now count=100000
+ cmd=mx /bases/mdlG4/m13.mdl/mdl now count=100000
