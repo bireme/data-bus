@@ -1,1 +1,1 @@
-java -cp dist/BarramentoDados.jar:dist/lib/commons-exec-1.1.jar:dist/lib/derby.jar org.bireme.barr.BarrMultiServer $0 $1 $2
+java -cp dist/BarramentoDados.jar:dist/lib/commons-exec-1.1.jar:dist/lib/lucene-analyzers-common-4.2.1.jar:dist/lib/lucene-core-4.2.1.jar:dist/lib/lucene-queryparser-4.2.1.jar org.bireme.barr.BarrMultiServer $0 $1 $2

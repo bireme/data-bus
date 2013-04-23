@@ -1,1 +1,1 @@
-java -cp dist/BarramentoDados.jar:dist/lib/commons-exec-1.1.jar:dist/lib/derby.jar org.bireme.barr.BarrClient teste.txt
+java -cp dist/BarramentoDados.jar org.bireme.barr.BarrClient teste.txt
