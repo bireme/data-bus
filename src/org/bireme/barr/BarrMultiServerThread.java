@@ -58,10 +58,10 @@ public class BarrMultiServerThread extends Thread {
                     } else {
                         final String inStr = inputLine.trim();
                         if (inStr.startsWith("cmd=")) {
-                            outStr = "id=" + id;
+                            outStr = "id: " + id;
                             cmd = inStr.substring(4);
                         } else if (inStr.startsWith("ocmd=")) {                        
-                            outStr = "id=" + id;
+                            outStr = "id: " + id;
                             cmd = inStr.substring(5);
                             show = true;
                         } else if (inStr.startsWith("id=")) {
